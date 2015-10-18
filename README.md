@@ -49,7 +49,7 @@ Following the TCP stream, we see a couple of things worth noting.
     * sqlitebrowser\_200\_b1\_win (SQLite Browser, for personnel.db, most likely)
     * vlc-2.0.8-win32.exe (look's like someone isn't doing their job at work >.<)
 3. gotcha.-\_-.txt is a "pwned" message:
-> Looks like your systems isnt too secure :P
+    > Looks like your systems isnt too secure :P
 
 From these files, we can surmise that someone was able to hack into the bank computer, and plant a file, called gotcha.txt.
 
