@@ -260,11 +260,12 @@ We aren't told straight away who this phone belongs to. After downloading, howev
   * hsftwitcher.isis.poly.edu
   * hsfgit.isis.poly.edu
   * hsfbook.isis.poly.edu
-  The only new container out of these three links is [hsfgit.isis.poly.edu](http://hsfgit.isis.poly.edu)
 2. Saved Pages:
   * Nothing.
 3. Bookmarks:
   * Generic and Default Bookmarks.
+
+The only new container out of all of these is [http://hsfgit.isis.poly.edu](http://hsfgit.isis.poly.edu).
 
 **SMS:**
 1. Jim Dibner
