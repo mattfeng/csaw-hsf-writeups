@@ -100,3 +100,23 @@ Interesting email: **Be Careful**
 > I do not know the extent of your current efforts, but in any case you should worry that you are overstepping your bounds. A project in the lab is great but if that means **hazardly putting the rest of the lab as risk** it will need to be ended there.
 
 So, the lab has some dangerous projects under progress, and some do not agree.
+
+Interesting email: **Status**
+> Guys,
+>
+> I need to put this out there. We are getting pummelled. **All of our services are no longer in my control**. The down time is killing everything. If I do not get this all together soon I may need to go in and physically fix all of this.
+
+The lab is being hacked to the extent where they have no control. Supposedly, Moshe Wunsch is in charge of keeping the lab services running, but they are not in his control anymore.
+
+Suspicious email (From:Marc Rogers / To:Luke Hunkes): **Project Info**
+> I know you have testing our system in mind, but I do not see the end goal. How will this remove our adversaries.
+
+One of the lab project's goals is to remove adversaries. That doesn't seem too nice.
+
+Suspicious email (From: Marc Rogers / To: Luke Hunkes): **Re: Final Steps**
+> I will take it that you are sure on this one. I will be there to back you up.
+>
+> > luke.hunkes@gmail.com wrote
+> > Jim's actions have played into our hands. Julian will arrive here soon. Meet me in the back of the lab **to deal with him**.
+
+There seems to be tension in the lab. The lab members are ready to "deal with each other", possibly with murder?
