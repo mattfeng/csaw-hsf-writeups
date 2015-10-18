@@ -14,8 +14,8 @@ We've opened up the sdcard. Lots of these files are missing extensions, but sinc
 
 Interesting File (010965):
 > Recovery Plan  
-> hsfportal.isis.poly.edu/#login  
-> hsfportal.isis.poly.edu/#dropbox  
+> hsfportal.isis.poly.edu/#login - if you know me, you'll be able to figure out my creds.
+> hsfportal.isis.poly.edu/#dropbox - recover the **device** and continue the fight.
 
 Both of these are links to a new container, [hsfportal.isis.poly.edu](http://hsfportal.isis.poly.edu).
 
@@ -27,7 +27,7 @@ Password: Do Ev1l
 ```
 What kind of person puts spaces in their password though?  
 Anyways, now we can take a look at his Dropbox files.
-There's an:
+Files:
  * AVD (Android Virtual Device)
  * Debian Credentials (j:hack4lyfe)
  * Phishing Script (Not yet uploaded...)
