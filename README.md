@@ -17,6 +17,6 @@ Interesting File (010965):
 > hsfportal.isis.poly.edu/#login  
 > hsfportal.isis.poly.edu/#dropbox  
 
-Both of these are links to a new container, [hsfportal.isis.poly.edu](hsfportal.isis.poly.edu).
+Both of these are links to a new container, [hsfportal.isis.poly.edu](http://hsfportal.isis.poly.edu).
 
 
