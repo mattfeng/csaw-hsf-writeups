@@ -275,12 +275,33 @@ The only new container out of all of these is [http://hsfgit.isis.poly.edu](http
   Jim Dibner: Don't worry... soon I'll be the leader of CyberNutz and I'll pay for your dinner!
   Marc Rogers: Chill dude.. anything can happen.. It's CyberNutz
   Marc Rogers: also.. probably should text about this..</pre>
-2. M W  
-3. Julian Jacobs  
-4. Geri Berns  
+2. M W
+  <pre>
+  Moshe Wunsch: got a mailing list verification email. did you get it?
+  Marc Rogers: Yup. Already responded with all my info.
+  Moshe Wunsch: Oh ok. I'll do the same. I just thought it looked a little weird.
+  Marc Rogers: Nah it seemed fine to me
+  ...
+  Moshe Wunsch: Weird.. my credentials aren't working anymore for the mailing list. You sure that email was okay?
+  Marc Rogers: Yeah it's fine. I can still get into mine.
+  Moshe Wunsch: Weird
+  </pre>
+3. Julian Jacobs
+4. Geri Berns
+  <pre>
+  Marc Rogers: and the phishing email is sent.
+  Geri Berns: Good. Have you caught any "phish"?
+  Marc Rogers: HAHA *phish*-on! Guess who?
+  Geri Berns: You think you're funny huh? Who is it?
+  Marc Rogers: MOSHE! LOL
+  Geri Berns: Nice work. I'll be in the lab next week sometime.
+  </pre>
 
-From the snippet of the conversation between Jim Dibner and Marc Rogers, , we see that there is a new container. Secondly, we see that Marc Rogers is afraid to talk about leadership changes in the CyberNutz.  
-They also had plans to meet for dinner, but Marc bailed, because he had to "take care of important stuff sorry". What important stuff?
+From the snippet of the conversation between Jim Dibner and Marc Rogers, , we see that there is a new container. Secondly, we see that Marc Rogers is afraid to talk about leadership changes in the CyberNutz. They also had plans to meet for dinner, but Marc bailed, because he had to "take care of important stuff sorry". What important stuff?
+
+Between Moshe and Marc, it seems that Moshe has been phished. BUt it is very suspicious that Marc Rogers repeatedly says that there was nothing wrong with the email. Perhaps because he sent out that email?
+
+Indeed, looking at the emails between Geri Berns and Marc Rogers, we see that they are conniving something. Marc did send out the phishing email, and Geri says that phishing Moshe is "good". What could that possibly mean?
 
 ###### Calls (Call Log):
 Multiple calls to the following:
