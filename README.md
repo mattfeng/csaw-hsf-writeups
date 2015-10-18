@@ -25,4 +25,24 @@ Upon reaching the website, we find that in order to see any interesting files, w
 Username: jhunkse  
 Password: Do Ev1l  
 ```
-What kind of person puts spaces in their password though?
+What kind of person puts spaces in their password though?  
+Anyways, now we can take a look at his Dropbox files.
+There's an:
+ * AVD (Android Virtual Device)
+ * Debian Credentials (j:hack4lyfe)
+ * Phishing Script (Not yet uploaded...)
+ * Database File
+ * IDS File (Intrusion Detection System PCAP)
+
+Three of these are new containers. Let's take a look.
+
+##### IDS File?
+> Just got my hands on this - now we can figure out how to be more stealthy :) - M
+
+Sounds pretty ominous. We download the file, and open it up in Wireshark.
+
+##### DB
+> Just incase I need to access this elsewhere...
+
+Some kind of database file. 
+
