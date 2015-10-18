@@ -271,19 +271,16 @@ The only new container out of all of these is [http://hsfgit.isis.poly.edu](http
 ###### SMS:
 
 1. Jim Dibner
-> Jim Dibner: Have you seen this awesome website yet? [http://hsfpin.isis.poly.edu](http://hsfpin.isis.poly.edu)  
-> Jim Dibner: Don't worry... soon I'll be the leader of CyberNutz and I'll pay for your dinner!  
-> Marc Rogers: Chill dude.. anything can happen.. It's CyberNutz  
-> Marc Rogers: also.. probably should text about this..  
-
-From the snippet of the conversation, we see that there is a new container. Secondly, we see that Marc Rogers is afraid to talk about leadership changes in the CyberNutz.  
-They also had plans to meet for dinner, but Marc bailed, because he had to "take care of important stuff sorry". What important stuff?
-
+  > Jim Dibner: Have you seen this awesome website yet? [http://hsfpin.isis.poly.edu](http://hsfpin.isis.poly.edu)  
+  > Jim Dibner: Don't worry... soon I'll be the leader of CyberNutz and I'll pay for your dinner!  
+  > Marc Rogers: Chill dude.. anything can happen.. It's CyberNutz  
+  > Marc Rogers: also.. probably should text about this..  
 2. M W
-
 3. Julian Jacobs
-
 4. Geri Berns
+
+From the snippet of the conversation between Jim Dibner and Marc Rogers, , we see that there is a new container. Secondly, we see that Marc Rogers is afraid to talk about leadership changes in the CyberNutz.  
+They also had plans to meet for dinner, but Marc bailed, because he had to "take care of important stuff sorry". What important stuff?
 
 ###### Calls (Call Log):
 Multiple calls to the following:
