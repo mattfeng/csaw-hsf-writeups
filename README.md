@@ -332,3 +332,10 @@ Marc Rogers threatens the other members of the school that if they try to use wh
 
 2. Drafts: Empty
 
+#### hsfgit.isis.poly.edu
+Unfortunately, the website is no longer functioning, so we cannot view the contents and evidence on this website. It is okay, however, as the git repos on this website that pertain to the case are available in the container found through hsfpin.isis.poly.edu.
+
+#### hsfpin.isis.poly.edu
+We need to tunnel into this website with an IPv6 proxy. After doing so, we see many links, all of which look like they have been visited before. One link, however, has not already been clicked (appears blue).  
+> Gonna use this on my **computer**
+Clicking on the word computer leads to a link to the HSFLab.zip computer.
