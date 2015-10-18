@@ -225,3 +225,15 @@ None.
 <pre>volatility -f bankram.vmem <b>connscan</b></pre>  
 Lots of connections using ports 80 (HTTP) and 443 (HTTPS)
 [https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+
+## CSAW 2013 Finals Round
+#### [hsfportal.isis.poly.edu/messages](http://hsfportal.isis.poly.edu/messages)
+This is pretty straight-forward - no tunnelling needed. We reach the website, and see there's a weird sounding message. Furthermore, there are two links: one to [hsftwitcher](http://hsftwitcher.isis.poly.edu), and another to [hsfbook](hsfbook.isis.poly.edu). Both websites, recalling from qualification rounds, require [ipv6proxy.net](http://ipv6proxy.net)
+
+#### hsftwitcher.isis.poly.edu (Updated? Or nah...)
+We tunnel in, and use Joel's credentials from preliminaries to login. But, we find nothing has changed. So, we continue on to our next container, hoping for something new.
+
+#### hsfbook.isis.poly.edu (This one is updated...)
+Yep, it's updated, with a lot more comments, too. Let's look through all of them (that'll take a while, unfortunately).
+
+
