@@ -156,12 +156,14 @@ Two things we need to do here:
 ###### Laptop VM
 We boot up the machine, and see that it is a Debian machine. That beings up the our Debian password that we found in the Dropbox (hsfportal). Sure enough, <pre>hack4lyfe</pre> lets us login to the machine.  
 
+Everything that's interesting was already found below, during static analysis with FTK Imager.
+We just checked the web history; there was nothing.
 
 ###### FTK Imager Files
 **twitcher_creds.txt**
 > luke.hunkes:hackerallday
 
-What is twitcher, anyways?
+What is twitcher, anyways? Perhaps another website? Like (guessed link) [hsftwitcher.isis.poly.edu](http://hsftwitcher.isis.poly.edu). We'll keep this in mind if we run out of containers.
 
 Link to pykeylogger. That's pretty intriguing.  
 
@@ -180,3 +182,46 @@ CSV Document with the details of many phished people.
 
 **Documents/financials.db**  
 This is the file that was on the Bank computer... What was Joel doing?
+
+##### hsftwitcher.isis.poly.edu
+We have to use a proxy (ipv6proxy.net) to tunnel into the website.  
+Jacobs Julian posted an interesting twit:
+> Nqqeq n arj ercb qhevat Unpx Avtug! Purpx vg bhg
+
+It's a caesarian shift 13, and decodes into the fact there is a new git repo added after Hack Night. But we have no idea where this git repo is. We'll keep our eyes peeled. Let's now take a look at our other container, hsfbook.isis.poly.edu  
+There's also other messages that are encrypted using Base64 and other Caesarian shifts, but they do not add anything to the storyline.
+
+##### hsfbook.isis.poly.edu
+We also have to use an ipv6 proxy to tunnel into this website.
+Geri Berns posted to the wire:
+> Just found some odd activity. Can somebody analyze this for me? [http://hsfcdn.isis.poly.edu/dl.php?3c7c3d292c3eb8f74b8a8a28d1f6e4e8](http://hsfcdn.isis.poly.edu/dl.php?3c7c3d292c3eb8f74b8a8a28d1f6e4e8)
+
+We begin downloading, and see that it's a file called bankram.zip. Unzipping, there's a bankram.vmem file. We can use volatility to analyze the memory dump.
+
+##### Final Container: bankram.zip
+It's a .vmem file, meaning we will use <pre>volatility</pre> to conduct the proper memory analysis.
+
+<pre>volatility -f bankram.vmem <b>imageinfo</b></pre>  
+Suggested Profile: Windows XP Service Pack 2 (Indeed, the bank computer was running Windows XP)
+Image data and time: September 17th, 2013
+
+<pre>volatility -f bankram.vmem <b>pslist</b></pre>  
+Suspicious Process: pykeylogger.exe (This was the file that Joel had a link for on his computer. It's possible that he planted the keylogger.)
+
+<pre>volatility -f bankram.vmem <b>psscan</b></pre>  
+Again, pykeylogger.exe comes up as a process. That's suspicious.  
+Another interesting process is sshd.exe. This means people could SSH into the bank computer. Is that really necessary? Or was that a measure for persistence?
+
+<pre>volatility -f bankram.vmem <b>consoles</b></pre>  
+Quite a few commands. Interesting points:
+1. ConsoleProcess csrss.exe PID: 592
+   Original title: Metasploit Courtesy Shell (TM)
+This implies that the bank was hacked by someone using Metasploit. Who had metasploit? That's right, Joel.
+2. Also many references to Mintty, SSH and Bash. I wonder what a bank operator was doing with those commands?
+
+<pre>volatility -f bankram.vmem <b>connections</b></pre>  
+None.
+
+<pre>volatility -f bankram.vmem <b>connscan</b></pre>  
+Lots of connections using ports 80 (HTTP) and 443 (HTTPS)
+[https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
