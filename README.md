@@ -78,7 +78,7 @@ Contacts:
 
 Browsing History:
  * Many references to hsfportal.isis.poly.edu (nothing new here though)
- * New Container: [hsfcasino.isis.poly.edu](hsfcasino.isis.poly.edu)
+ * New Container: [hsfcasino.isis.poly.edu](http://hsfcasino.isis.poly.edu)
    Under both browsing history and most visited
 
 Emails (Account: luke.hunkes@gmail.com):
