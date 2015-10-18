@@ -213,7 +213,7 @@ Again, pykeylogger.exe comes up as a process. That's suspicious.
 Another interesting process is sshd.exe. This means people could SSH into the bank computer. Is that really necessary? Or was that a measure for persistence?
 
 <pre>volatility -f bankram.vmem <b>consoles</b></pre>  
-Quite a few commands. Interesting points:
+Quite a few commands. Interesting points:  
 1. ConsoleProcess csrss.exe PID: 592  
    Original title: Metasploit Courtesy Shell (TM)  
 This implies that the bank was hacked by someone using Metasploit. Who had metasploit? That's right, Joel.  
