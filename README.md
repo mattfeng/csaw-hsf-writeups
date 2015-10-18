@@ -165,18 +165,18 @@ What is twitcher, anyways?
 
 Link to pykeylogger. That's pretty intriguing.  
 
-**cybernutz.ods**
+**cybernutz.ods**  
 Some sort of CyberNutz hierarchy. Joel is the boss, Marc is the "Consiglieri", Chris is underboss. There are many Leutenants, and even more Soldiers. Sounds like a cult, to be honest.
 
-**.bash_history**
+**.bash_history**  
 > ping hsfbook.isis.poly.edu
 
 Looks like we've discovered our new container. Furthermore, we see that Joel used the Metasploit Framework, maybe to exploit the Windows XP Box (Bank)?
 
 Also to note are the TrueCrypt installation, and the large file **cybernutz**, probably a TrueCrypt volume.
 
-**Documents/phish.csv**
+**Documents/phish.csv**  
 CSV Document with the details of many phished people.
 
-**Documents/financials.db**
+**Documents/financials.db**  
 This is the file that was on the Bank computer... What was Joel doing?
