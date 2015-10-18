@@ -40,7 +40,7 @@ Three of these are new containers. Let's take a look.
 > Just got my hands on this - now we can figure out how to be more stealthy :) - M
 
 Sounds pretty ominous. We download the file (it's called IDS.zip, which has IDS.pcap inside), and open it up in Wireshark.  
-Following the TCP stream, we see a couple of things worth noting.
+Following the TCP stream, we see a couple of things worth noting.  
 1. The computer is related to, or is, a bank (judging by the user name).
 2. The files in the My Documents include:
     * gotcha-\_-.txt
