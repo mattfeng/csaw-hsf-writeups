@@ -255,19 +255,21 @@ Downloading the image and running <pre>strings -10 doge2.gif</pre> on the file g
 #### Nexus.zip (Android Phone Analysis)
 We aren't told straight away who this phone belongs to. After downloading, however, we see that it uses Google API Version 16, signifying a older phone.
 
-**Web History:**  
-1. Under "Older":
-    * hsftwitcher.isis.poly.edu
-    * hsfgit.isis.poly.edu
-    * hsfbook.isis.poly.edu
+###### Web History:
+
+1. Under "Older"
+  * hsftwitcher.isis.poly.edu
+  * hsfgit.isis.poly.edu
+  * hsfbook.isis.poly.edu
 2. Saved Pages:
-    * Nothing.
+  * Nothing.
 3. Bookmarks:
-    * Generic and Default Bookmarks.
+  * Generic and Default Bookmarks.
 
 The only new container out of all of these is [http://hsfgit.isis.poly.edu](http://hsfgit.isis.poly.edu).
 
-**SMS:**
+###### SMS:
+
 1. Jim Dibner
 > Jim Dibner: Have you seen this awesome website yet? [http://hsfpin.isis.poly.edu](http://hsfpin.isis.poly.edu)  
 > Jim Dibner: Don't worry... soon I'll be the leader of CyberNutz and I'll pay for your dinner!  
@@ -283,8 +285,9 @@ They also had plans to meet for dinner, but Marc bailed, because he had to "take
 
 4. Geri Berns
 
-**Calls (Call Log):**
+###### Calls (Call Log):
 Multiple calls to the following:
+
 1. Jim Dibner
   * Phone Number: 121-425-9394
 2. Julian Jacobs
@@ -294,15 +297,18 @@ Multiple calls to the following:
 4. M W (Moshe Wunsch)
   * Phone Number: 121-893-6927
 
-**Contacts:**
+###### Contacts:
+
 Through the contacts profile "Me", we see that the phone belongs to Marc Rogers.  
 Phone Number: 1 121-657-1185  
 Email: marc.rogers99@gmail.com
 
-**Applications:**
+###### Applications:
+
  * KeePassDroid (Nothing inside, however)
 
-**Emails:**
+###### Emails:
+
 1. **RE: One Man Army**  
 Marc Rogers threatens the other members of the school that if they try to use what they learn in class to harm others in the real world ("practical targets"), he will get back at them. "I'm watching."
 
