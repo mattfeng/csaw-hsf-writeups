@@ -147,4 +147,36 @@ if (playerScore == 35) {
 We found a new [container](http://hsfcdn.isis.poly.edu/dl.php?d4a4bbf1a527791b0693c2dda2d7b4c9).  
 Furthermore, we are told that this container was planted by MR (Marc Rogers, most likely), for Joel. The rabbit hole keeps getting deeper...
 
+##### Laptop.zip (Joel's Laptop)
+Two things we need to do here:
+1. Firstly, it's a laptop with a split hard drive, meaning that's really annoying for analysis.
+2. Secondly, we can boot it up and see what's on it, but that's just to get an overview of what's going on. We need to use FTK Imager to really see and extract files.
+3. Actually, there's a third thing; we can [join](https://vmexpo.wordpress.com/2014/04/15/how-to-merge-multiple-vmdks-into-single-vmdk/comment-page-1/) the split disks together, but I'm not sure if that is necessary.
 
+###### Laptop VM
+We boot up the machine, and see that it is a Debian machine. That beings up the our Debian password that we found in the Dropbox (hsfportal). Sure enough, <pre>hack4lyfe</pre> lets us login to the machine.  
+
+
+###### FTK Imager Files
+**twitcher_creds.txt**
+> luke.hunkes:hackerallday
+
+What is twitcher, anyways?
+
+Link to pykeylogger. That's pretty intriguing.  
+
+**cybernutz.ods**
+Some sort of CyberNutz hierarchy. Joel is the boss, Marc is the "Consiglieri", Chris is underboss. There are many Leutenants, and even more Soldiers. Sounds like a cult, to be honest.
+
+**.bash_history**
+> ping hsfbook.isis.poly.edu
+
+Looks like we've discovered our new container. Furthermore, we see that Joel used the Metasploit Framework, maybe to exploit the Windows XP Box (Bank)?
+
+Also to note are the TrueCrypt installation, and the large file **cybernutz**, probably a TrueCrypt volume.
+
+**Documents/phish.csv**
+CSV Document with the details of many phished people.
+
+**Documents/financials.db**
+This is the file that was on the Bank computer... What was Joel doing?
