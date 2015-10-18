@@ -183,6 +183,9 @@ CSV Document with the details of many phished people.
 **Documents/financials.db**  
 This is the file that was on the Bank computer... What was Joel doing?
 
+**cybernutz**
+Most likely a TrueCrypt volume, as it is large, and TrueCrypt is installed on his computer (truecrypt installation file found, .TrueCrypt directory). We will see if we can bruteforce the password (or are given it later on), but as of right now, we do not have the means of decrypting the TrueCrypt volume.
+
 #### hsftwitcher.isis.poly.edu
 We have to use a proxy (ipv6proxy.net) to tunnel into the website.  
 Jacobs Julian posted an interesting twit:
