@@ -13,9 +13,9 @@ to mount sdcard.tc. We then begin the analysis of the sdcard.
 We've opened up the sdcard. Lots of these files are missing extensions, but since we are using Linux, we don't need to worry about that (sorry, Windows folks!). 
 
 Interesting File (010965):
-> Recovery Plan
-> hsfportal.isis.poly.edu/#login
-> hsfportal.isis.poly.edu/#dropbox
+> Recovery Plan  
+> hsfportal.isis.poly.edu/#login  
+> hsfportal.isis.poly.edu/#dropbox  
 
 Both of these are links to a new container, [hsfportal.isis.poly.edu](hsfportal.isis.poly.edu).
 
