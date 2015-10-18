@@ -247,4 +247,63 @@ We tunnel in, and use Joel's credentials from preliminaries to login. But, we fi
 #### hsfbook.isis.poly.edu (This one is updated...)
 Yep, it's updated, with a lot more comments, too. Let's look through all of them (that'll take a while, unfortunately).
 
+Marc Rogers uploaded the file Purpx bhg guvf njrfbzr cvpgher:
+> (Decrypts to) Check out this awesome picture:
+
+Downloading the image and running <pre>strings -10 doge2.gif</pre> on the file gives the download link to a Nexus phone. That's our next container.
+
+#### Nexus.zip (Android Phone Analysis)
+We aren't told straight away who this phone belongs to. After downloading, however, we see that it uses Google API Version 16, signifying a older phone.
+
+**Web History:**
+1. Under "Older":
+  * hsftwitcher.isis.poly.edu
+  * hsfgit.isis.poly.edu
+  * hsfbook.isis.poly.edu
+  The only new container out of these three links is [hsfgit.isis.poly.edu](http://hsfgit.isis.poly.edu)
+2. Saved Pages:
+  * Nothing.
+3. Bookmarks:
+  * Generic and Default Bookmarks.
+
+**SMS:**
+1. Jim Dibner
+> Jim Dibner: Have you seen this awesome website yet? [http://hsfpin.isis.poly.edu](http://hsfpin.isis.poly.edu)  
+> Jim Dibner: Don't worry... soon I'll be the leader of CyberNutz and I'll pay for your dinner!  
+> Marc Rogers: Chill dude.. anything can happen.. It's CyberNutz  
+> Marc Rogers: also.. probably should text about this..  
+
+From the snippet of the conversation, we see that there is a new container. Secondly, we see that Marc Rogers is afraid to talk about leadership changes in the CyberNutz.  
+They also had plans to meet for dinner, but Marc bailed, because he had to "take care of important stuff sorry". What important stuff?
+
+2. M W
+
+3. Julian Jacobs
+
+4. Geri Berns
+
+**Calls (Call Log):**
+Multiple calls to the following:
+1. Jim Dibner
+  * Phone Number: 121-425-9394
+2. Julian Jacobs
+  * Phone Number: 121-736-6486
+3. Geri Berns
+  * Phone Number: 121-739-6891
+4. M W (Moshe Wunsch)
+  * Phone Number: 121-893-6927
+
+**Contacts:**
+Through the contacts profile "Me", we see that the phone belongs to Marc Rogers.  
+Phone Number: 1 121-657-1185  
+Email: marc.rogers99@gmail.com
+
+**Applications:**
+ * KeePassDroid (Nothing inside, however)
+
+**Emails:**
+1. **RE: One Man Army**  
+Marc Rogers threatens the other members of the school that if they try to use what they learn in class to harm others in the real world ("practical targets"), he will get back at them. "I'm watching."
+
+2. Drafts: Empty
 
