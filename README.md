@@ -255,7 +255,7 @@ Downloading the image and running <pre>strings -10 doge2.gif</pre> on the file g
 #### Nexus.zip (Android Phone Analysis)
 We aren't told straight away who this phone belongs to. After downloading, however, we see that it uses Google API Version 16, signifying a older phone.
 
-**Web History:**
+**Web History:**  
 1. Under "Older":
   * hsftwitcher.isis.poly.edu
   * hsfgit.isis.poly.edu
