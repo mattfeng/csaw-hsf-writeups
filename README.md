@@ -1,7 +1,7 @@
 # CSAW High School Forensics Writeups
 
-### CSAW 2013 Qualification Round
-##### Given Download to USB Drive (sdcard.zip)
+## CSAW 2013 Qualification Round
+#### Given Download to USB Drive (sdcard.zip)
 Clicking the download gives a download to sdcard.zip. We begin downloading this supposed SD Card.  
 Upon downloading and extracting, we see we are given 'hi.txt' and a .tc file. We open hi.txt and find that super secret 'Password' implies the password to the TrueCrypt volume is 'Password'. We run
 ```bash
@@ -9,7 +9,7 @@ veracrypt -tc --mount sdcard.tc
 ```
 to mount sdcard.tc. We then begin the analysis of the sdcard.
 
-##### SD Card (sdcard.tc)
+#### SD Card (sdcard.tc)
 We've opened up the sdcard. Lots of these files are missing extensions, but since we are using Linux, we don't need to worry about that (sorry, Windows folks!). 
 
 Interesting File (010965):
@@ -19,7 +19,7 @@ Interesting File (010965):
 
 Both of these are links to a new container, [hsfportal.isis.poly.edu](http://hsfportal.isis.poly.edu).
 
-##### hsfportal.isis.poly.edu (aka Dropbox)
+#### hsfportal.isis.poly.edu (aka Dropbox)
 Upon reaching the website, we find that in order to see any interesting files, we need to login first. After looking at the source code, we find that the login credentials are:  
 ```
 Username: jhunkse  
@@ -36,7 +36,7 @@ Files:
 
 Three of these are new containers. Let's take a look.
 
-##### IDS File?
+#### IDS File?
 > Just got my hands on this - now we can figure out how to be more stealthy :) - M
 
 Sounds pretty ominous. We download the file (it's called IDS.zip, which has IDS.pcap inside), and open it up in Wireshark.  
@@ -53,12 +53,12 @@ Following the TCP stream, we see a couple of things worth noting.
 
 From these files, we can surmise that someone was able to hack into the bank computer, and plant a file, called gotcha.txt.
 
-##### DB
+#### DB
 > Just incase I need to access this elsewhere...
 
 Clicking the link appears to lead us to a download page (from hsfcdn), but unfortunately it appears broken. We'll keep our eyes out for a DB file throughout the competition, though.
 
-##### Android Virtual Device
+#### Android Virtual Device
 > HTC Desire C
 
 Well, we see what kind of phone Joel has. We know it's Joel's phone because the downloaded file is called, aptly, "JoelsPhone.zip". This file takes a while to download.
@@ -121,7 +121,7 @@ Suspicious email (From: Marc Rogers / To: Luke Hunkes): **Re: Final Steps**
 
 There seems to be tension in the lab. The lab members are ready to "deal with each other", possibly with murder?
 
-##### hsfcasino.isis.poly.edu (Gambling Site, yay!)
+#### hsfcasino.isis.poly.edu (Gambling Site, yay!)
 We can see that the CyberNutz like playing gambling games. Upon reaching the website, we are greeted with a variety of games:
  * 8 Puzzle
  * Blackjack
@@ -147,7 +147,7 @@ if (playerScore == 35) {
 We found a new [container](http://hsfcdn.isis.poly.edu/dl.php?d4a4bbf1a527791b0693c2dda2d7b4c9).  
 Furthermore, we are told that this container was planted by MR (Marc Rogers, most likely), for Joel. The rabbit hole keeps getting deeper...
 
-##### Laptop.zip (Joel's Laptop)
+#### Laptop.zip (Joel's Laptop)
 Two things we need to do here:
 1. Firstly, it's a laptop with a split hard drive, meaning that's really annoying for analysis.
 2. Secondly, we can boot it up and see what's on it, but that's just to get an overview of what's going on. We need to use FTK Imager to really see and extract files.
@@ -183,7 +183,7 @@ CSV Document with the details of many phished people.
 **Documents/financials.db**  
 This is the file that was on the Bank computer... What was Joel doing?
 
-##### hsftwitcher.isis.poly.edu
+#### hsftwitcher.isis.poly.edu
 We have to use a proxy (ipv6proxy.net) to tunnel into the website.  
 Jacobs Julian posted an interesting twit:
 > Nqqeq n arj ercb qhevat Unpx Avtug! Purpx vg bhg
@@ -191,14 +191,14 @@ Jacobs Julian posted an interesting twit:
 It's a caesarian shift 13, and decodes into the fact there is a new git repo added after Hack Night. But we have no idea where this git repo is. We'll keep our eyes peeled. Let's now take a look at our other container, hsfbook.isis.poly.edu  
 There's also other messages that are encrypted using Base64 and other Caesarian shifts, but they do not add anything to the storyline.
 
-##### hsfbook.isis.poly.edu
+#### hsfbook.isis.poly.edu
 We also have to use an ipv6 proxy to tunnel into this website.
 Geri Berns posted to the wire:
 > Just found some odd activity. Can somebody analyze this for me? [http://hsfcdn.isis.poly.edu/dl.php?3c7c3d292c3eb8f74b8a8a28d1f6e4e8](http://hsfcdn.isis.poly.edu/dl.php?3c7c3d292c3eb8f74b8a8a28d1f6e4e8)
 
 We begin downloading, and see that it's a file called bankram.zip. Unzipping, there's a bankram.vmem file. We can use volatility to analyze the memory dump.
 
-##### Final Container: bankram.zip
+#### Final Container: bankram.zip
 It's a .vmem file, meaning we will use <pre>volatility</pre> to conduct the proper memory analysis.
 
 <pre>volatility -f bankram.vmem <b>imageinfo</b></pre>  
