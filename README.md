@@ -228,7 +228,15 @@ Lots of connections using ports 80 (HTTP) and 443 (HTTPS)
 
 ## CSAW 2013 Finals Round
 #### [hsfportal.isis.poly.edu/messages](http://hsfportal.isis.poly.edu/messages)
-This is pretty straight-forward - no tunnelling needed. We reach the website, and see there's a weird sounding message. Furthermore, there are two links: one to [hsftwitcher](http://hsftwitcher.isis.poly.edu), and another to [hsfbook](hsfbook.isis.poly.edu). Both websites, recalling from qualification rounds, require [ipv6proxy.net](http://ipv6proxy.net)
+This is pretty straight-forward - no tunnelling needed. We reach the website, and see there's a weird sounding message.
+> There's this really creepy guy who's always lurking around Hack Nights.
+> That night, we were all relieved that he wasn't there.
+> You know, he's not that great of a student.
+> But then it dawned on us, that maybe that maybe meant something.
+> [Maybe he was some sort of] relative of Stratoz. (Brackets mean _unsure of what is said_)
+> I've done a little bit of my own investigating.
+
+Furthermore, there are two links: one to [hsftwitcher](http://hsftwitcher.isis.poly.edu), and another to [hsfbook](hsfbook.isis.poly.edu). Both websites, recalling from qualification rounds, require [ipv6proxy.net](http://ipv6proxy.net)
 
 #### hsftwitcher.isis.poly.edu (Updated? Or nah...)
 We tunnel in, and use Joel's credentials from preliminaries to login. But, we find nothing has changed. So, we continue on to our next container, hoping for something new.
