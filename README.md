@@ -257,13 +257,13 @@ We aren't told straight away who this phone belongs to. After downloading, howev
 
 **Web History:**  
 1. Under "Older":
-  * hsftwitcher.isis.poly.edu
-  * hsfgit.isis.poly.edu
-  * hsfbook.isis.poly.edu
+    * hsftwitcher.isis.poly.edu
+    * hsfgit.isis.poly.edu
+    * hsfbook.isis.poly.edu
 2. Saved Pages:
-  * Nothing.
+    * Nothing.
 3. Bookmarks:
-  * Generic and Default Bookmarks.
+    * Generic and Default Bookmarks.
 
 The only new container out of all of these is [http://hsfgit.isis.poly.edu](http://hsfgit.isis.poly.edu).
 
