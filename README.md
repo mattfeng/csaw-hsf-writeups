@@ -337,7 +337,7 @@ Unfortunately, the website is no longer functioning, so we cannot view the conte
 
 #### hsfpin.isis.poly.edu
 We need to tunnel into this website with an IPv6 proxy. After doing so, we see many links, all of which look like they have been visited before. One link, however, has not already been clicked (appears blue).  
-> Gonna use this on my [computer](http://hsfcdn.isis.poly.edu/df.php?f299c3c944c3ce677bcca7b9526aeb37)  
+> Gonna use this on my [computer](http://hsfcdn.isis.poly.edu/dl.php?f299c3c944c3ce677bcca7b9526aeb37)  
 > jimdibs7
 
 Clicking on the word computer leads to a link to the HSFLab.zip computer.
