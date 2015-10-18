@@ -202,7 +202,7 @@ We begin downloading, and see that it's a file called bankram.zip. Unzipping, th
 It's a .vmem file, meaning we will use <pre>volatility</pre> to conduct the proper memory analysis.
 
 <pre>volatility -f bankram.vmem <b>imageinfo</b></pre>  
-Suggested Profile: Windows XP Service Pack 2 (Indeed, the bank computer was running Windows XP)
+Suggested Profile: Windows XP Service Pack 2 (Indeed, the bank computer was running Windows XP)  
 Image data and time: September 17th, 2013
 
 <pre>volatility -f bankram.vmem <b>pslist</b></pre>  
@@ -214,9 +214,9 @@ Another interesting process is sshd.exe. This means people could SSH into the ba
 
 <pre>volatility -f bankram.vmem <b>consoles</b></pre>  
 Quite a few commands. Interesting points:
-1. ConsoleProcess csrss.exe PID: 592
-   Original title: Metasploit Courtesy Shell (TM)
-This implies that the bank was hacked by someone using Metasploit. Who had metasploit? That's right, Joel.
+1. ConsoleProcess csrss.exe PID: 592  
+   Original title: Metasploit Courtesy Shell (TM)  
+This implies that the bank was hacked by someone using Metasploit. Who had metasploit? That's right, Joel.  
 2. Also many references to Mintty, SSH and Bash. I wonder what a bank operator was doing with those commands?
 
 <pre>volatility -f bankram.vmem <b>connections</b></pre>  
