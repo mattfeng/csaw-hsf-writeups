@@ -44,7 +44,7 @@ Following the TCP stream, we see a couple of things worth noting.
 
 1. The computer is related to, or is, a bank (judging by the user name).
 2. The files in the My Documents include:
-    * gotcha-\_-.txt
+    * gotcha.-\_-.txt
     * personnel.db (could this be the DB file?)
     * sqlitebrowser\_200\_b1\_win (SQLite Browser, for personnel.db, most likely)
     * vlc-2.0.8-win32.exe (look's like someone isn't doing their job at work >.<)
@@ -62,3 +62,41 @@ Clicking the link appears to lead us to a download page (from hsfcdn), but unfor
 > HTC Desire C
 
 Well, we see what kind of phone Joel has. We know it's Joel's phone because the downloaded file is called, aptly, "JoelsPhone.zip". This file takes a while to download.
+Using AVD Manager by Android, we have to install Google API 17 to open the phone. So, we go ahead and install that using the SDK Manager that comes with the AVD Manager (all these acronyms, man!).
+
+Applications Installed:
+ * Terminal Emulator
+ * Astro File Manager
+ * Superuser
+
+
+Call History:
+ * None (Call to 888-888-8888, but seems like a junk call)
+
+Contacts:
+ * None
+
+Browsing History:
+ * Many references to hsfportal.isis.poly.edu (nothing new here though)
+ * New Container: [hsfcasino.isis.poly.edu](hsfcasino.isis.poly.edu)
+   Under both browsing history and most visited
+
+Emails (Account: luke.hunkes@gmail.com):
+ * Couple of Emails to Note:
+   1. Marc Rogers (marc.rogers99@gmail.com)
+   2. Jim Dibner (jimdibs7@gmail.com)
+   3. Moshe Wunsch (mwunsch3@gmail.com)
+   4. Geri Berns (geriberns@gmail.com)
+   5. Julian Jacobs (jacobsjulian2@gmail.com)
+
+Interesting email: **Urgent Announcement**
+> All, lab has experienced some unexpected behavior in the past 24 hours. Be way this may be an attack...
+
+Supposedly the lab has undergone an attack, and from the bank IDS, we can see that their infrastructure has indeed been hacked.
+
+Interesting email: **Be Careful**
+> Joel,
+>
+> I do not know the extent of your current efforts, but in any case you should worry that you are overstepping your bounds. A project in the lab is great but if that means **hazardly putting the rest of the lab as risk** it will need to be ended there.
+
+So, the lab has some dangerous projects under progress, and some do not agree.
