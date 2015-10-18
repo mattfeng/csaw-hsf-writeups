@@ -120,3 +120,31 @@ Suspicious email (From: Marc Rogers / To: Luke Hunkes): **Re: Final Steps**
 > > Jim's actions have played into our hands. Julian will arrive here soon. Meet me in the back of the lab **to deal with him**.
 
 There seems to be tension in the lab. The lab members are ready to "deal with each other", possibly with murder?
+
+##### hsfcasino.isis.poly.edu (Gambling Site, yay!)
+We can see that the CyberNutz like playing gambling games. Upon reaching the website, we are greeted with a variety of games:
+ * 8 Puzzle
+ * Blackjack
+ * Snake
+ * Quizy
+ * Slots
+
+.htaccess, robots.txt, .git:
+ * Nothing.
+
+Reading source files, and looking at the blackjack.js source code, we see an interesting snippet of code:
+```javascript
+/**********************
+ * MR: ADDED IN THE BACKDOOR THAT JH ASKED FOR. HOPEFULLY NOBODY READS THE SOURCE!
+ **********************/
+if (playerScore == 35) {
+    setTimeout(function() { $('#result').html("Joel must've sent you - click <a href='http://hsfcdn.isis.poly.edu/dl.php?d4a4bbf1a527791b0693c2dda2d7b4c9' target='_blank'>here</a>."); gameOver("lose") }, 500);
+} else {
+    setTimeout(function() { $('#result').text("Busted!"); gameOver("lose") }, 500);
+}
+```
+
+We found a new [container](http://hsfcdn.isis.poly.edu/dl.php?d4a4bbf1a527791b0693c2dda2d7b4c9).  
+Furthermore, we are told that this container was planted by MR (Marc Rogers, most likely), for Joel. The rabbit hole keeps getting deeper...
+
+
