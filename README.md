@@ -327,7 +327,7 @@ Email: marc.rogers99@gmail.com
 
 ###### Emails:
 
-1. **RE: One Man Army**  
+1. **Re: One Man Army**  
 Marc Rogers threatens the other members of the school that if they try to use what they learn in class to harm others in the real world ("practical targets"), he will get back at them. "I'm watching."
 
 2. Drafts: Empty
@@ -342,4 +342,6 @@ We need to tunnel into this website with an IPv6 proxy. After doing so, we see m
 
 Clicking on the word computer leads to a link to the HSFLab.zip computer.
 
-#### HSFLab Commputer (HSFLab.zip)
+#### HSFLab Computer (HSFLab.zip)
+
+
