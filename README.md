@@ -343,5 +343,11 @@ We need to tunnel into this website with an IPv6 proxy. After doing so, we see m
 Clicking on the word computer leads to a link to the HSFLab.zip computer.
 
 #### HSFLab Computer (HSFLab.zip)
+We downloaded the computer, but we have no method of logging in and accessing the contents. So we have to boot into single-user mode and log in as root. Next, we navigate to the root directory (/) and look at the files inside. We have two points of analysis: /home/\*, and /lab/\*.
+###### /home/\*
+
+
+
+###### /lab/\*
 
 
